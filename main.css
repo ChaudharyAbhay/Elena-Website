@@ -1,0 +1,41 @@
+h1 {
+    color : #f70404;
+    text-align: center;
+}
+h2{
+    color:aqua;
+    text-align: center;
+}
+#Contribute{
+    background-color: #0fdb20;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 1000px;
+}
+#Download{
+    background-color: #0fdb20;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+}
+#Download:hover{
+    transition-duration: 0.5s;
+    background-color: #000000;
+    color: aqua;
+}
+#Contribute:hover{
+    transition-duration: 0.5s;
+    background-color: #000000;
+    color: rgb(255, 0, 0);
+}
+body {
+    background-color: rgb(0, 0, 0);
+  }
