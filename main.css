@@ -22,7 +22,10 @@ h3{
     border-radius: 5px;
     cursor: pointer;    
     font-size: 16px;
-    margin-left: 1000px;
+    position: absolute;
+    top: 50;
+    right: 1;
+
 }
 #Download_pie{
     background-color: #f81e01;
@@ -32,7 +35,9 @@ h3{
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    margin-left: 10px;
+    position: absolute;
+
+
 }
 #Download_pie:hover{
     transition-duration: 0.5s;
@@ -47,7 +52,8 @@ h3{
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    margin-left: 10px;
+    position: absolute;
+    right: 1;
 }
 #Download_sharp:hover{
     transition-duration: 0.5s;
