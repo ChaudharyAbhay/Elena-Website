@@ -8,7 +8,7 @@
         <link href="source.js" rel="script" type="script">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        <link rel="icon" type="image/x-icon" href="favicon/letter E.png">
+        <link rel="icon" type="image/x-icon" href="favicon/favicon.ico">
         <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
         <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
@@ -26,6 +26,16 @@
         <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
         <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+        <style>
+            body {
+              background-image: url('backgrounds/background2.jpg');
+              width: 100%;
+              height: auto;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+            </style>
        
     </head>
     <body>
@@ -35,13 +45,39 @@
         <button id="Download_pie">Download Pie Elena</button>
         <button id="Download_sharp">Download Sharp Elena</button>
         <button id="Contribute" onclick="location.href='https://github.com/ChaudharyAbhay/ChaudharyAbhay.github.io'"><img src="github_logo.png " height="20" />Contribute</button>
-        <h3>About Elena:</h3>
-        <p id="about">Elena is a voice assistant which can easily do many things for you.<br>
-            The version Pie Elena is written is python and the version Sharp Elena is written in C Sharp.<br>
-            You Can also Contribute to our code and our bot. Just Click the Contribute Button.<br>    
-        </p>
         </div>
+        <div id="main">
+
+            <div><input id="input" type="text" placeholder="Hello! I Am J. Elena :)" autocomplete="off"  autofocus="true"/></div>
         
+        </div>
+
+<div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+  <!-- Indicators -->
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+    <h4>"This company is the best. I am so happy with the result!"<br><span style="font-style:normal;">Michael Roe, Vice President, Comment Box</span></h4>
+    </div>
+    <div class="item">
+      <h4>"One word... WOW!!"<br><span style="font-style:normal;">John Doe, Salesman, Rep Inc</span></h4>
+    </div>
+    <div class="item">
+      <h4>"Could I... BE any more happy with this company?"<br><span style="font-style:normal;">Chandler Bing, Actor, FriendsAlot</span></h4>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
     </body>
     <script src="source.js"></script>
 </html>

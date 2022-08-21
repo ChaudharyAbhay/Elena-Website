@@ -44,6 +44,7 @@ h3{
     background-color: #000000;
     color: aqua;
 }
+
 #Download_sharp{
     background-color: #400074;
     color: white;
@@ -55,6 +56,7 @@ h3{
     position: absolute;
     right: 1;
 }
+
 #Download_sharp:hover{
     transition-duration: 0.5s;
     background-color: #000000;
@@ -65,7 +67,30 @@ h3{
     background-color: #000000;
     color: rgb(255, 0, 0);
 }
-
+#Elena_think{
+    top:370;
+}
+#myCarousel{
+    top:400;
+}
 body {
     background-color: rgb(0, 0, 0);
   }
+#main { 
+    width: auto;
+    height: auto;
+    position: fixed; 
+    top: 40%; 
+    left: 50%;
+    transform: translate(-50%, -50%);}
+.messages {
+	display: flex;
+	flex-direction: column;
+	overflow: scroll;
+	height: 90%;
+	width: 100%;
+	background-color: white;
+	padding: 15px;
+	margin: 15px;
+	border-radius: 10px;
+}
